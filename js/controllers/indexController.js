@@ -1,6 +1,6 @@
 angular.module('hackApp.controllers')
-  .controller('IndexController', ['$scope', '$http',
-    function ($scope, $http) {
+  .controller('IndexController', ['$scope', '$http', '$timeout',
+    function ($scope, $http, $timeoutd) {
       $scope.labels = [];
       $scope.data = [];
       $scope.currentFilter = null;
@@ -22,8 +22,17 @@ angular.module('hackApp.controllers')
 
       $http.get('/api/emails')
         .success(function (data) {
-          $scope.totalEmails = data.total;
-          $scope.emails = data.emails;
+          $scope.totalEmails = data.meta.total;
+          $scope.emails = data.objects;
+
+          angular.forEach($scope.emails, function (email) {
+            if(email.form){
+              email.category = 'Form';
+            } else {
+              email.category = 'Personal';
+            }
+
+          });
 
           $http.get('/api/categories')
             .success(function (data) {
@@ -41,4 +50,13 @@ angular.module('hackApp.controllers')
       $scope.clearFilter = function () {
         $scope.currentFilter = null;
       };
+
+      // $timeout(function () {
+      //   $('canvas').click(function () {
+      //     console.log(arguments);
+      //     console.log(this);
+      //   });
+      // });
+      
+
     }]);

@@ -30,10 +30,10 @@
               </thead>
               <tbody>
                 <tr ng-repeat="email in emails | filter:labelFilter">
-                  <td>{{ email.to }}</td>
-                  <td>{{ email.from }}</td>
-                  <td>{{ email.subject }}</td>
-                  <td>{{ email.body }}</td>
+                  <td>{{ email.message_to }}</td>
+                  <td>{{ email.message_from }}</td>
+                  <td>{{ email.message_subject }}</td>
+                  <td>{{ email.text | limitTo: 100 }}...</td>
                   <td>{{ email.category }}</td>
                 </tr>
               </tbody>

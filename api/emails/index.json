@@ -1,28 +1,62 @@
 {
-  "total": "3",
-  "emails": [
-  {
-    "to": "cmbirk@gmail.com",
-    "from": "chris@opengovfoundation.org",
-    "body": "This is the body of some email",
-    "subject": "Subject Title",
-    "category": "Personal",
-    "form_id": "1"
+  "meta": {
+    "total": 3,
+    "model": "email",
+    "next": "",
+    "page": 1,
+    "previous": ""
   },
-  {
-    "to": "cmbirk@gmail.com",
-    "from": "sayhello@opengovfoundation.org",
-    "body": "This is another email body",
-    "subject": "Some Subject",
-    "category": "Personal",
-    "form_id": "1"
-  },
-  {
-    "to": "cmbirk@gmail.com",
-    "from": "form@email.com",
-    "body": "DO SOMETHING NOW",
-    "subject": "WHAT ARE WE YELLING ABOUT!?",
-    "category": "Form",
-    "form_id": "2"
-  }
-]}
+  "objects": [
+    {
+      "message_to": "\"#all-members\" <all-members@mitchief.org>",
+      "message_from": "\"Pan, Yichao\" <pan.yichao@mitchief.org>",
+      "form": 1,
+      "message_date": "2015-01-28 15:22:34-05:00",
+      "text": "Dear all,\n\n  \n\nGood news! MIT\u00a0Ventureships\u00a0Club is providing a great opportunity for you to\ngain experience in both entrepreneurship and leadership!\n\n  \n\nEvery semester, our club works with MIT\u00a0Venture\u00a0Mentoring Service to launch a\nVentureships\u00a0Program. In this program, we interview and select 4~5 early stage\nMIT start-ups as well as 10~20 MIT students. The students will work closely\nwith the CEOs on market research, fund raising, technology development, etc,\nall of which are essential to the start-ups.\n\n  \n\nAs the Spring 2015\u00a0Ventureships\u00a0Program is approaching, we are\u00a0recruiting\u00a0new\nmembers into our executive board.\n\n  \n\n**Position Info And Requirements:**\n\n1) We are looking for 4~5 new members, and according to club regulation, new\nmember will start as Program Coordinators.\n\n2) Program Coordinator description:\n\n**a)\u00a0**Will join a team in the\u00a0Ventureships\u00a0Program and work on the CEO's project together with other\u00a0 students in the team. 3~5 hours/week.\n\n**b)\u00a0**Will coordinate the students and CEO in his/her team as the representative of the Club.\n\n**c)\u00a0**Responsible directly to the President.\u00a0\n\n**d)\u00a0**Can take on other positions such as Treasurer, Vice President, Publicity Director, etc.\n\n**e)\u00a0**Will be present in the video of the Club, which will be posted in all our promotion tools.\n\n**f)\u00a0**Will get a certificate at the end of semester.\n\n**g)**\u00a0Possible opportunities to be further involved in the start-up he/she works with.\n\n  \n\nIf you are enthusiastic about entrepreneurship, don't hesitate to join us!\n\nApply here:\n\nhttp://goo.gl/forms/HjLir9ck5O\n\n  \n\n**Join our mailing list**, so that you can receive up-to-date information of the club:\n\nhttps://mailman.mit.edu:444/mailman/listinfo/ventureships_enthusiasts\n\n  \n\nQuestions can be sent to\u00a0ventureships_executive@exchange.mit.edu\n\n  \n\nLinks to the Club:  \nhttp://ventureships.mit.edu  \nhttps://www.facebook.com/groups/228347817286309/  \nhttp://www.linkedin.com/groups/MIT-Ventureships-\nClub-4569007?gid=4569007&trk=hb_side_g\n\n  \n\nVentureships Executive Board",
+      "message_subject": "[Partner Program] Join MIT Ventureships Club",
+      "id": 1
+    },
+    {
+      "message_to": "zhang.yuxuan@mitchief.org",
+      "message_from": "FreedomPop <accounts@freedompopaccount.com>",
+      "form": 5,
+      "message_date": "2015-01-28",
+      "text": "View Online in Web Browser\n\n|\n\n|  **Get Free Phone Service!**  \n---  \n**#FreeVoiceTextData**  \n**_It's Our Crazy Startup Sale - OVER 90% OFF!_**  \n**LIMITED TIME ONLY**  \n  \n**Save up to $1000 per year!** It's not only a great alternative to major carriers but the perfect **phone for your kids**, or just as a backup for when you run out of data or minutes. Also, forget paying for an expensive home phone line from your cable company or a major carrier, just use FreedomPop as your **FREE home phone service alternative!**\n\n  * 500MB of 4G LTE data free per month\n  * Save money every month\n  * Earn Unlimited Free Data\n  * Share Data with friends\n\n|  |  The Motorola Photon Q 4G LTE packs plenty of power and a fantastic\nhardware keyboard! (Retails for $299.99)  \n  \n##### Share This Offer:  \n  \n---  \n  \nThis message was sent to zhang.yuxuan@mitchief.org on behalf of FreedomPop  \n  \nClick here to unsubscribe from future emails  \n  \nTo ensure delivery add accounts@freedompopaccount.com to your address book.\n\n  \n\n     **(C) 2015 FreedomPop** - 11301 W Olympic Blvd., STE 112, Los Angeles, California 90064",
+      "message_subject": "Startup Sale - Over 90% OFF!",
+      "id": 2
+    },
+    {
+      "message_to": "\"#all-members\" <all-members@mitchief.org>",
+      "message_from": "\"Pan, Yichao\" <pan.yichao@mitchief.org>",
+      "form": 2,
+      "message_date": "2015-01-27 16:34:24-05:00",
+      "text": "##  2.0 Project\n\nWork on the FWD.us online advocacy tools with a team of in-house engineers and\nvolunteer coders. Join a team of problem solvers and strategists who want to\nuse their specialized skills to shape the national narrative on critical\npolitical issues in local chapter areas.\n\n**Ideal Volunteer:**\n\n  * Digital campaign or marketing experience\n  * Have professional experience in Ruby on Rails and/or HTML\n  * Have an understanding of APIs\n  * Be mission driven with a passion for the intersection of tech and politics\n  * Be interested in and supportive of comprehensive immigration reform\n\nApply here: http://www.fwd.us/two",
+      "message_subject": "[Partner Program] Volunteer Wanted! FWD.us 2.0 Project",
+      "id": 3
+    },
+    {
+      "message_to": "\"#all-members\" <all-members@mitchief.org>",
+      "message_from": "\"Pan, Yichao\" <pan.yichao@mitchief.org>",
+      "message_date": "2015-01-28 15:22:34-05:00",
+      "text": "Dear all,\n\n  \n\nGood news! MIT\u00a0Ventureships\u00a0Club is providing a great opportunity for you to\ngain experience in both entrepreneurship and leadership!\n\n  \n\nEvery semester, our club works with MIT\u00a0Venture\u00a0Mentoring Service to launch a\nVentureships\u00a0Program. In this program, we interview and select 4~5 early stage\nMIT start-ups as well as 10~20 MIT students. The students will work closely\nwith the CEOs on market research, fund raising, technology development, etc,\nall of which are essential to the start-ups.\n\n  \n\nAs the Spring 2015\u00a0Ventureships\u00a0Program is approaching, we are\u00a0recruiting\u00a0new\nmembers into our executive board.\n\n  \n\n**Position Info And Requirements:**\n\n1) We are looking for 4~5 new members, and according to club regulation, new\nmember will start as Program Coordinators.\n\n2) Program Coordinator description:\n\n**a)\u00a0**Will join a team in the\u00a0Ventureships\u00a0Program and work on the CEO's project together with other\u00a0 students in the team. 3~5 hours/week.\n\n**b)\u00a0**Will coordinate the students and CEO in his/her team as the representative of the Club.\n\n**c)\u00a0**Responsible directly to the President.\u00a0\n\n**d)\u00a0**Can take on other positions such as Treasurer, Vice President, Publicity Director, etc.\n\n**e)\u00a0**Will be present in the video of the Club, which will be posted in all our promotion tools.\n\n**f)\u00a0**Will get a certificate at the end of semester.\n\n**g)**\u00a0Possible opportunities to be further involved in the start-up he/she works with.\n\n  \n\nIf you are enthusiastic about entrepreneurship, don't hesitate to join us!\n\nApply here:\n\nhttp://goo.gl/forms/HjLir9ck5O\n\n  \n\n**Join our mailing list**, so that you can receive up-to-date information of the club:\n\nhttps://mailman.mit.edu:444/mailman/listinfo/ventureships_enthusiasts\n\n  \n\nQuestions can be sent to\u00a0ventureships_executive@exchange.mit.edu\n\n  \n\nLinks to the Club:  \nhttp://ventureships.mit.edu  \nhttps://www.facebook.com/groups/228347817286309/  \nhttp://www.linkedin.com/groups/MIT-Ventureships-\nClub-4569007?gid=4569007&trk=hb_side_g\n\n  \n\nVentureships Executive Board",
+      "message_subject": "[Partner Program] Join MIT Ventureships Club",
+      "id": 1
+    },
+    {
+      "message_to": "zhang.yuxuan@mitchief.org",
+      "message_from": "FreedomPop <accounts@freedompopaccount.com>",
+      "message_date": "2015-01-28",
+      "text": "View Online in Web Browser\n\n|\n\n|  **Get Free Phone Service!**  \n---  \n**#FreeVoiceTextData**  \n**_It's Our Crazy Startup Sale - OVER 90% OFF!_**  \n**LIMITED TIME ONLY**  \n  \n**Save up to $1000 per year!** It's not only a great alternative to major carriers but the perfect **phone for your kids**, or just as a backup for when you run out of data or minutes. Also, forget paying for an expensive home phone line from your cable company or a major carrier, just use FreedomPop as your **FREE home phone service alternative!**\n\n  * 500MB of 4G LTE data free per month\n  * Save money every month\n  * Earn Unlimited Free Data\n  * Share Data with friends\n\n|  |  The Motorola Photon Q 4G LTE packs plenty of power and a fantastic\nhardware keyboard! (Retails for $299.99)  \n  \n##### Share This Offer:  \n  \n---  \n  \nThis message was sent to zhang.yuxuan@mitchief.org on behalf of FreedomPop  \n  \nClick here to unsubscribe from future emails  \n  \nTo ensure delivery add accounts@freedompopaccount.com to your address book.\n\n  \n\n     **(C) 2015 FreedomPop** - 11301 W Olympic Blvd., STE 112, Los Angeles, California 90064",
+      "message_subject": "Startup Sale - Over 90% OFF!",
+      "id": 2
+    },
+    {
+      "message_to": "\"#all-members\" <all-members@mitchief.org>",
+      "message_from": "\"Pan, Yichao\" <pan.yichao@mitchief.org>",
+      "message_date": "2015-01-27 16:34:24-05:00",
+      "text": "##  2.0 Project\n\nWork on the FWD.us online advocacy tools with a team of in-house engineers and\nvolunteer coders. Join a team of problem solvers and strategists who want to\nuse their specialized skills to shape the national narrative on critical\npolitical issues in local chapter areas.\n\n**Ideal Volunteer:**\n\n  * Digital campaign or marketing experience\n  * Have professional experience in Ruby on Rails and/or HTML\n  * Have an understanding of APIs\n  * Be mission driven with a passion for the intersection of tech and politics\n  * Be interested in and supportive of comprehensive immigration reform\n\nApply here: http://www.fwd.us/two",
+      "message_subject": "[Partner Program] Volunteer Wanted! FWD.us 2.0 Project",
+      "id": 3
+    }
+  ]
+}
