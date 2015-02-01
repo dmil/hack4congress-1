@@ -1,0 +1,27 @@
+{
+  "name": "hack4congress",
+  "version": "0.0.0",
+  "authors": [
+    "Chris Birk <cmbirk@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "jquery": "~2.0.3",
+    "angular-charts": "0.2.7"
+  },
+  "dependencies": {
+    "angular": "~1.3.11",
+    "angular-ui": "~0.4.0",
+    "jquery": "~2.1.3",
+    "angular-ui-router": "~0.2.13",
+    "bootstrap": "~3.3.2",
+    "angular-chart.js": "~0.3.19"
+  }
+}

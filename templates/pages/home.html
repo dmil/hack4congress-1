@@ -1,0 +1,46 @@
+<div class="container">
+  <!-- upper section -->
+  <div class="row">
+    <div class="col-sm-3">
+      <!-- left -->
+      <h3><i class="glyphicon glyphicon-briefcase"></i> Categories</h3>
+      <hr>
+      <ul class="nav nav-stacked">
+        <li ng-repeat="label in labels"><a href="javascript:;"><i class="glyphicon glyphicon-inbox"></i> {{ label }}</a></li>
+      </ul>
+      <hr>
+    </div>
+    <div class="col-sm-9"> 
+      <div class="row">
+        <h3><i class="glyphicon glyphicon-dashboard"></i> Metrics</h3>
+        <div class="col-sm-3 col-sm-offset-3">
+          <canvas class="chart chart-pie" data="data" labels="labels" options="chartOptions" legend="true"></canvas>
+        </div>
+      </div>
+      <div class="row">
+        <h3><i class="glyphicon glyphicon-dashboard"></i>Inbox</h3>      
+        <hr>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="well">Inbox Messages <span class="badge pull-right">{{ totalEmails }}</span></div>
+            <table class="table table-striped">
+              <thead>
+                <tr><th>To:</th><th>From:</th><th>Subject:</th><th>Preview:</th><th>Category</th></tr>
+              </thead>
+              <tbody>
+                <tr ng-repeat="email in emails">
+                  <td>{{ email.to }}</td>
+                  <td>{{ email.from }}</td>
+                  <td>{{ email.subject }}</td>
+                  <td>{{ email.body }}</td>
+                  <td>{{ email.category }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div><!--/col-->
+        </div><!--/row-->
+      </div><!--/col-span-9-->
+    </div> 
+  </div><!--/row-->
+  <!-- /upper section -->
+</div><!--/container-->

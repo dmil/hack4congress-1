@@ -1,0 +1,28 @@
+{
+  "total": "3",
+  "emails": [
+  {
+    "to": "cmbirk@gmail.com",
+    "from": "chris@opengovfoundation.org",
+    "body": "This is the body of some email",
+    "subject": "Subject Title",
+    "category": "Personal",
+    "form_id": "1"
+  },
+  {
+    "to": "cmbirk@gmail.com",
+    "from": "sayhello@opengovfoundation.org",
+    "body": "This is another email body",
+    "subject": "Some Subject",
+    "category": "Personal",
+    "form_id": "1"
+  },
+  {
+    "to": "cmbirk@gmail.com",
+    "from": "form@email.com",
+    "body": "DO SOMETHING NOW",
+    "subject": "WHAT ARE WE YELLING ABOUT!?",
+    "category": "Form",
+    "form_id": "2"
+  }
+]}
