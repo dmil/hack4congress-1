@@ -34,7 +34,7 @@
                   <td>{{ email.message_from }}</td>
                   <td>{{ email.message_subject }}</td>
                   <td>{{ email.text | limitTo: 100 }}...</td>
-                  <td>{{ email.category }}</td>
+                  <td>{{ email | categoryFilter}} <span ng-if="email.category == 'Form'" class="badge pull-right">2</span></td>
                 </tr>
               </tbody>
             </table>

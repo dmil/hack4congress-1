@@ -1,11 +1,16 @@
 angular.module('hackApp.filters', [])
   .filter('categoryFilter', function () {
     return function (email) {
-      if (email.form) {
-        return 'Form';
+      console.log(email + ' email');
+      var returned = '';
+
+      if (email.form != undefined) {
+        returned = 'Form';
       } else {
-        return 'Personal';
+        returned = 'Personal';
       }
+
+      return returned;
     };
   })
   .filter('receiptFilter', function () {
