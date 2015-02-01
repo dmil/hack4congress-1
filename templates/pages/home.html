@@ -6,7 +6,8 @@
       <h3><i class="glyphicon glyphicon-briefcase"></i> Categories</h3>
       <hr>
       <ul class="nav nav-stacked">
-        <li ng-repeat="label in labels"><a href="javascript:;"><i class="glyphicon glyphicon-inbox"></i> {{ label }}</a></li>
+        <li ng-repeat="label in labels"><a ng-click="filterEmails(label)"><i class="glyphicon glyphicon-inbox"></i> {{ label }}</a></li>
+        <li ng-if="currentFilter"><a ng-click="clearFilter()"><i class="glyphicon glyphicon-remove"></i> Clear Filters</a></li>
       </ul>
       <hr>
     </div>
@@ -28,7 +29,7 @@
                 <tr><th>To:</th><th>From:</th><th>Subject:</th><th>Preview:</th><th>Category</th></tr>
               </thead>
               <tbody>
-                <tr ng-repeat="email in emails">
+                <tr ng-repeat="email in emails | filter:labelFilter">
                   <td>{{ email.to }}</td>
                   <td>{{ email.from }}</td>
                   <td>{{ email.subject }}</td>

@@ -1,3 +1,7 @@
 /**
 * Custom Styles
 */
+/* line 5, ../sass/style.scss */
+.nav-stacked li {
+  cursor: pointer;
+}

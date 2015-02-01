@@ -3,6 +3,18 @@ angular.module('hackApp.controllers')
     function ($scope, $http) {
       $scope.labels = [];
       $scope.data = [];
+      $scope.currentFilter = null;
+      $scope.labelFilter = function (email) {
+        if($scope.currentFilter) {
+          if(email.category == $scope.currentFilter){
+            return true;
+          }
+
+          return false;
+        }
+
+        return true;
+      };
 
       $scope.chartOptions = {
         animateRotate: false
@@ -21,4 +33,12 @@ angular.module('hackApp.controllers')
               });
             });
         });
+
+      $scope.filterEmails = function (category) {
+        $scope.currentFilter = category;
+      };
+
+      $scope.clearFilter = function () {
+        $scope.currentFilter = null;
+      };
     }]);
