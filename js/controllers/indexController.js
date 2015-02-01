@@ -4,6 +4,7 @@ angular.module('hackApp.controllers')
       $scope.labels = [];
       $scope.data = [];
       $scope.currentFilter = null;
+      $scope.emails = [];
 
       $scope.labelFilter = function (email) {
         if($scope.currentFilter) {
@@ -23,7 +24,8 @@ angular.module('hackApp.controllers')
 
       $http.get('/api/emails')
         .success(function (data) {
-          $scope.totalEmails = data.meta.total;
+          //$scope.totalEmails = data.meta.total;
+          $scope.totalEmails = 20;
           $scope.emails = data.objects;
 
           angular.forEach($scope.emails, function (email) {
