@@ -5,3 +5,8 @@
 .nav-stacked li {
   cursor: pointer;
 }
+
+/* line 10, ../sass/style.scss */
+tr {
+  cursor: pointer;
+}

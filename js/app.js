@@ -1,8 +1,9 @@
 var imports = [
   'hackApp.controllers',
+  'hackApp.filters',
   'chart.js',
   'ui.router',
-  'ui'
+  'ui',
 ];
 
 var app = angular.module('hackApp', imports);

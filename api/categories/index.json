@@ -1,10 +1,24 @@
-[
-  {
+{
+"meta": {
+"total": 0,
+"model": "comments",
+"next": "",
+"page": 1,
+"previous": ""
+},
+"objects": [
+ {"name": "Meetings", "count": "0" },
+ {"name": "Opinions", "count": "0" },
+ {"name": "Question", "count": "0"},
+ {"name": "Action", "count": "0"},
+ {"name": "Thank You", "count": "0"},
+ {
     "name" : "Personal",
-    "count": "2"
+    "count": "3"
   },
   {
     "name": "Form",
-    "count" : "1"
+    "count" : "3"
   }
-]
+ ]
+}
