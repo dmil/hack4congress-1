@@ -10,3 +10,9 @@
 tr {
   cursor: pointer;
 }
+
+/* line 14, ../sass/style.scss */
+chart-legend {
+  position: absolute;
+  width: 100%;
+}
