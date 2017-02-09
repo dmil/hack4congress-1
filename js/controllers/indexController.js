@@ -22,7 +22,7 @@ angular.module('hackApp.controllers')
         animateRotate: false
       };
 
-      $http.get('/api/emails')
+      $http.get('/api/emails/index.json')
         .success(function (data) {
           //$scope.totalEmails = data.meta.total;
           $scope.totalEmails = 20;
@@ -37,7 +37,7 @@ angular.module('hackApp.controllers')
 
           });
 
-          $http.get('/api/categories')
+          $http.get('/api/categories/index.json')
             .success(function (data) {
               angular.forEach(data.objects, function (category) {
                 $scope.labels.push(category.name);
